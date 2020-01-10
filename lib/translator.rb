@@ -33,6 +33,6 @@ end
 def get_english_meaning(file_path, emoticon)
   emoticons = load_library(file_path)
   if emoticons["get_meaning"]
-   print  translation
+   print translation
   end 
 end
