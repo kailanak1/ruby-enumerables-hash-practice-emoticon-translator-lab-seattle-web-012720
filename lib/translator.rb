@@ -33,7 +33,7 @@ end
 def get_english_meaning(file_path, emoticon)
   emoticons = load_library(file_path)
   if emoticons["get_meaning"]
-   print emoticons["get_meaning"]
+   emoticons["get_meaning"]
  else 
    "Sorry, that emoticon was not found"
   end 
